@@ -1,8 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import Footer from '../../components/Footer'
 import Header from "../../components/HeaderContainer"
 import Main from '../../components/mainContainer'
 import App from '../../components/SectionApp'
+import Details from '../../components/SectionDetails'
+import Information from '../../components/SectionInformation'
 export const Container = styled.div`
 position: relative;
 width: 100%; 
@@ -20,6 +23,9 @@ export default function LandingPage() {
       <Header />
       <Main />
       <App />
+      <Information />
+      <Details />
+      <Footer />
     </Container>
   )
 }
