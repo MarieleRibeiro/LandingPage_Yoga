@@ -5,12 +5,14 @@ export const Container = styled.div`
 width: 100%;
 background: #E5E5E5;
 display: flex;
-padding: 50px 809px 85px 100px;
+padding: 50px 700px 85px 100px;
+
 `
-export const Nav = styled.div`
+export const Nav = styled.li`
+width: 100%;
 display: flex;
-flex-direction: column;
 justify-content: center;
+
 h6 {
   max-width: 139px;
   width: 100%;
@@ -27,8 +29,16 @@ a {
 }
 a:hover {
   color: pink;
-  text-decoration: none;
 }
+li {
+  display: flex;
+  flex-direction: column;
+  list-style:none
+}
+li:nth-child(2) {
+    margin: 0 80px 0 80px;
+  }
+
 
 `
 
@@ -36,27 +46,29 @@ export default function Footer() {
   return (
     <Container>
       <Nav>
-        <h6>Our services</h6>
-        <a href="#">Pricing</a>
-        <a href="#">Tracking</a>
-        <a href="#">Report a Bug</a>
-        <a href="#">Terms of services</a>
-      </Nav>
+        <li>
+          <h6>Our services</h6>
+          <a href="#">Pricing</a>
+          <a href="#">Tracking</a>
+          <a href="#">Report a Bug</a>
+          <a href="#">Terms of services</a>
+        </li>
 
-      <Nav>
-        <h6>Our Company</h6>
-        <a href="#">Pricing</a>
-        <a href="#">Tracking</a>
-        <a href="#">Report a Bug</a>
-        <a href="#">Terms of services</a>
-      </Nav>
+        <li>
+          <h6>Our Company</h6>
+          <a href="#">Pricing</a>
+          <a href="#">Tracking</a>
+          <a href="#">Report a Bug</a>
+          <a href="#">Terms of services</a>
+        </li>
 
-      <Nav>
-        <h6>Address</h6>
-        <a href="#">Pricing</a>
-        <a href="#">Tracking</a>
-        <a href="#">Report a Bug</a>
-        <a href="#">Terms of services</a>
+        <li>
+          <h6>Address</h6>
+          <a href="#">Pricing</a>
+          <a href="#">Tracking</a>
+          <a href="#">Report a Bug</a>
+          <a href="#">Terms of services</a>
+        </li>
       </Nav>
 
     </Container>
