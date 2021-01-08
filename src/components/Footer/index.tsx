@@ -40,6 +40,7 @@ li:nth-child(2) {
   }
 
 
+
 `
 
 export default function Footer() {
