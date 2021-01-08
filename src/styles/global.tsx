@@ -170,7 +170,7 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 52px;
-  color: #4B5092;
+  color: ${(props) => props.theme.colors.blue100}
 }
 h2 {
   font-family: 'Inter', sans-serif;
@@ -186,4 +186,4 @@ p {
 }
 
   
-`
+`;
