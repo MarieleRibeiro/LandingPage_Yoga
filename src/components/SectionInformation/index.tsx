@@ -30,6 +30,7 @@ export const Description = styled.div`
   flex-direction: column;
   @media (max-width: 960px) {
     align-items: center;
+    padding: 0 35px 0 28px;
   }
 
   p {
@@ -70,6 +71,7 @@ export const Info = styled.div`
   padding: 26px 20px 71px;
   @media (max-width: 960px) {
     margin-bottom: 21px;
+    max-width: none;
   }
 `;
 export const Span = styled.div`
@@ -80,6 +82,7 @@ export const Span = styled.div`
   @media (max-width: 960px) {
     background: #f8fbff;
     margin-bottom: 21px;
+    max-width: none;
   }
 `;
 export const DescriptionRight = styled.div`

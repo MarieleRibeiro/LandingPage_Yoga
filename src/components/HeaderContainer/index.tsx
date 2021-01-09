@@ -21,6 +21,10 @@ export const Button = styled.button`
   cursor: pointer;
   background: none;
   outline: none;
+  @media (max-width: 960px) {
+    top: 25px;
+    right: 25px;
+  }
 `;
 export const Left = styled.div`
   width: 100%;
