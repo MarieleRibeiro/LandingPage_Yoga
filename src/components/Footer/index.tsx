@@ -4,29 +4,29 @@ export default function Footer() {
   return (
     <Container>
       <Nav>
-        <li>
+        <ul>
           <h6>Our services</h6>
           <a href="#">Pricing</a>
           <a href="#">Tracking</a>
           <a href="#">Report a Bug</a>
           <a href="#">Terms of services</a>
-        </li>
+        </ul>
 
-        <li>
+        <ul>
           <h6>Our Company</h6>
           <a href="#">Pricing</a>
           <a href="#">Tracking</a>
           <a href="#">Report a Bug</a>
           <a href="#">Terms of services</a>
-        </li>
+        </ul>
 
-        <li>
+        <ul>
           <h6>Address</h6>
           <a href="#">Pricing</a>
           <a href="#">Tracking</a>
           <a href="#">Report a Bug</a>
           <a href="#">Terms of services</a>
-        </li>
+        </ul>
       </Nav>
     </Container>
   );

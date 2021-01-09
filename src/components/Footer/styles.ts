@@ -10,7 +10,7 @@ export const Container = styled.div`
     padding: 0 0 0 28px;
   }
 `;
-export const Nav = styled.li`
+export const Nav = styled.ul`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@ export const Nav = styled.li`
   a:hover {
     color: pink;
   }
-  li {
+  ul {
     display: flex;
     flex-direction: column;
     list-style: none;
