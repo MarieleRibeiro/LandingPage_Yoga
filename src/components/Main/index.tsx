@@ -23,7 +23,7 @@ export default function Main() {
         </p>
       </Right>
       <Image>
-        <img src={group} alt="image" />
+        <img src={group} alt=" Yoga" />
       </Image>
     </Container>
   );
