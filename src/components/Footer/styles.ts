@@ -41,11 +41,11 @@ export const Nav = styled.ul`
     flex-direction: column;
     list-style: none;
   }
-  li:nth-child(2) {
+  ul:nth-child(2) {
     margin: 0 80px 0 80px;
   }
   @media (max-width: 960px) {
-    li:nth-child(2) {
+    ul:nth-child(2) {
       margin: 0;
     }
   }
