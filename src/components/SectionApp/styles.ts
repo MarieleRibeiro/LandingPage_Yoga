@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding: 153px 134px 125px 100px;
   margin-bottom: 127px;
   @media (max-width: 960px) {
-    padding: 72px 31px 64px 65px;
+    padding: 72px 31px 64px 28px;
   }
 `;
 export const SectionImage = styled.div`
