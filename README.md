@@ -6,7 +6,9 @@
 
 </div>
 
- ![README/demo.fig](git/yoga_landing.gif)
+ ![README/demo.fig](git/yoga_landing.gif) 
+ ![README/demo.fig](git/responsivo.gif)
+ 
 
 
 ## :information_source: How to use
